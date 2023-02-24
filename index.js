@@ -1,11 +1,17 @@
-let countEl = document.getElementById("count-el")
 let count = 0
-
-function increament(){
-    count = count + 1
-    countEl.innerText = count
-}
 let saveEl = document.getElementById("save-el")
-function save(){
-    saveEl.innerText = count
+let countEl = document.getElementById("count-el")
+
+function increment() {
+    count += 1
+    countEl.textContent = count
 }
+
+function save() {
+    let countStr = count + " - "
+    saveEl.textContenttStr
+    countEl.textContent = 0
+    count = 0
+}
+
+console.log("Let's count people on the subway!")
